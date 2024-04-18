@@ -84,6 +84,7 @@ header{
 .my-plan{
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 100px;
 }
 .my-plan-title{
     text-align: center;
@@ -109,4 +110,25 @@ header{
 .plan-description{
     font-size: 25px;
     color: #737272;
+}
+
+/* contact area styles  */
+.contact{
+    background-image: url('images/gradient1.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+}
+.contact-content{
+    width: 50%;
+    padding: 60px 0 60px 60px;
+}
+.contact-title{
+    color: #fff;
+}
+.btn{
+    text-align: start;
+    margin: 20px 0;
 }
