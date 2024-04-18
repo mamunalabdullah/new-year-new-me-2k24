@@ -3,6 +3,9 @@
     padding: 0;
     font-family: "Work Sans", sans-serif;
 }
+li{
+    list-style: none;
+}
 img{
     display: block;
     max-width: 100%;
@@ -73,7 +76,6 @@ header{
     margin: 20px 0;
 }
 .section-content ul li{
-    list-style: none;
     margin: 8px 0;
 }
 .fa-check{
@@ -131,4 +133,48 @@ header{
 .btn{
     text-align: start;
     margin: 20px 0;
+}
+
+/* footer area styles  */
+footer{
+    background-color: #151414;
+}
+.footer-content{
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+}
+.right{
+    width: 20%;
+}
+.footer-title{
+    color: #fff;
+    font-size: 45px;
+}
+.footer-description, .email, .phone{
+    color: #fff;
+    margin: 10px 0;
+}
+.social-link ul{
+    display: flex;
+    gap: 30px;
+}
+.form-title{
+    color: #fff;
+    font-size: 25px;
+}
+input[type="email"]{
+    color: #F3F3F3;
+    background-color: #151414;
+    border: 1px solid #F3F3F3;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 15px;
+    width: 100%;
+
 }
